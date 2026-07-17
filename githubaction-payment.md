@@ -29,6 +29,10 @@ git push origin main
 # Deployment to Aws cloud
 ssh -i piet.pem ubuntu@54.184.142.1
 install docker in Ec2 machine
+sudo groupadd docker
+sudo usermod -aG docker ubuntu
+
+
 
 #GitHub action Secrets
 Settings → Secrets and variables → Actions
