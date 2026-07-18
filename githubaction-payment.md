@@ -29,9 +29,11 @@ git push origin main
 # Deployment to Aws cloud
 ssh -i piet.pem ubuntu@54.184.142.1
 install docker in Ec2 machine
+
 sudo groupadd docker
 sudo usermod -aG docker ubuntu
 
+Update Ec2 IP if ec2 machin has stopped. after start it has new IP
 
 
 #GitHub action Secrets
