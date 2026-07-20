@@ -33,8 +33,6 @@ install docker in Ec2 machine
 sudo groupadd docker
 sudo usermod -aG docker ubuntu
 
-Update Ec2 IP if ec2 machin has stopped. after start it has new IP
-
 
 #GitHub action Secrets
 Settings → Secrets and variables → Actions
@@ -46,3 +44,13 @@ EC2_HOST=54.xx.xx.xx
 EC2_USER=ec2-user
 
 EC2_SSH_KEY= .pem file
+
+#AWS
+Update Ec2 IP if ec2 machin has stopped. after start it has new IP
+update Security->inbound rules
+
+#test on command
+curl http://34.217.112.18:8080
+
+#test in postman
+curl http://34.217.112.18:8080/
